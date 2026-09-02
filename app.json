@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "SecureChat",
+    "slug": "securechat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#0a0a0a"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6c63ff"
+      },
+      "package": "com.securechat.app",
+      "permissions": []
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-screen-capture"
+    ]
+  }
+}
