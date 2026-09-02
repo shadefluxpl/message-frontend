@@ -1,8 +1,7 @@
 import * as SecureStore from 'expo-secure-store';
 
 // ⚠️ ZMIEŃ NA SWÓJ URL Z RENDER.COM po deploymencie
-export const BASE_URL = 'https://message-backend.onrender.com';
-
+export const BASE_URL = 'https://message-backend-u18z.onrender.com';
 export async function apiRequest(path, method = 'GET', body = null, isAdmin = false) {
   const token = isAdmin
     ? await SecureStore.getItemAsync('admin_token')
