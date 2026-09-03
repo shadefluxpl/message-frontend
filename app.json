@@ -5,13 +5,8 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "android": {
-      "package": "com.securechat.app",
-      "permissions": []
+      "package": "com.securechat.app"
     },
-    "plugins": [
-      "expo-secure-store",
-      "expo-screen-capture"
-    ],
     "extra": {
       "eas": {
         "projectId": "9c1f3e08-f206-49b3-b2ba-e8629a2b4603"
