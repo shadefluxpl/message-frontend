@@ -4,9 +4,20 @@
     "slug": "message-frontend",
     "version": "1.0.0",
     "orientation": "portrait",
-    "android": {
-      "package": "com.securechat.app"
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0a"
     },
+    "android": {
+      "package": "com.securechat.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#6c63ff"
+      }
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-screen-capture"
+    ],
     "extra": {
       "eas": {
         "projectId": "9c1f3e08-f206-49b3-b2ba-e8629a2b4603"
